@@ -18,11 +18,12 @@ The images `nginx-proxy` and `letsencrypt-nginx-proxy-companion` are builds for 
 3. Create the folder holding your anki user data and enter it in the docker-compose.yml file 
 Example: `- /media/usbssd/anki-data:/app/data`
 4. Run `docker-compose up -d --build` from within the directory containing the docker-compose.yml
-5. Add/Configure users by sending the appropriate commands to the administration interface inside container `anki-server` with
-`docker exec anki-server /app/anki-sync-server/ankisyncctl.py YOURCOMMANDHERE`
+5. Add/Configure users by sending the appropriate commands to the administration interface inside container `anki-server` with `docker exec anki-server /app/anki-sync-server/ankisyncctl.py YOURCOMMANDHERE`
 
-    Commands:
-      adduser <username> - add a new user
-      deluser <username> - delete a user
-      lsuser             - list users
-      passwd <username>  - change password of a user
+Possible Commands:
+
+    adduser <username> - add a new user
+    deluser <username> - delete a user
+    lsuser             - list users
+    passwd <username>  - change password of a user
+    
