@@ -1,4 +1,4 @@
-# Anki-Sync-Server for Raspberry Pi with https
+# Anki-Sync-Server Docker Setup for Raspberry Pi with https
 This repository contains a `docker-compose.yml` file to deploy a Anki-Sync-Server instance on a Raspberry Pi with a reverse-proxy to enable TLS (https) for communication with the AnkiDroid App.
 AnkiDroid does not accept non-https servers as of version 2.11.
 
