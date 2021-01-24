@@ -27,3 +27,4 @@ Possible Commands:
     lsuser             - list users
     passwd <username>  - change password of a user
     
+For more information visit https://github.com/ankicommunity/docker-anki-sync-server or https://github.com/ankicommunity/anki-sync-server
